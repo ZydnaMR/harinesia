@@ -485,14 +485,6 @@ footer p{
     padding:30px;
   }
 
-  .contact-box{
-    padding:40px 25px;
-  }
-
-  .contact-box h2{
-    font-size: 30px;
-  }
-
   .product-grid{
     display:flex;
     flex-wrap:nowrap;
@@ -525,6 +517,14 @@ footer p{
     grid-template-columns:1fr;
   }
 
+  .contact-box{
+    padding:40px 25px;
+  }
+
+  .contact-box h2{
+    font-size: 30px;
+  }
+
   .contact-item{
     display: flex;
     align-items: center;
@@ -543,7 +543,7 @@ footer p{
   }
 
   .contact-item span{
-    font-size: 1.1rem;      
+    font-size: 1rem;      
     line-height: 1.35;
     word-break: break-word;
   }
