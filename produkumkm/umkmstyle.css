@@ -489,6 +489,10 @@ footer p{
     padding:40px 25px;
   }
 
+  .contact-box h2{
+    font-size: 30px;
+  }
+
   .product-grid{
     display:flex;
     flex-wrap:nowrap;
