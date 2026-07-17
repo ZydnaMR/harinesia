@@ -1,3 +1,9 @@
+# ======================================================
+# Harinesia
+# Building Family, Business & Community
+# https://harinesia.com
+# ======================================================
+
 User-agent: *
 Allow: /
 
