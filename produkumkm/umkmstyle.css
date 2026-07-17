@@ -324,7 +324,7 @@ a{
   text-decoration:none;
   color:white;
   transition:0.3s;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
 }
 
 .contact-item:hover{
@@ -530,12 +530,13 @@ footer p{
     align-items: center;
     gap: 10px;
     padding: 6px 0;
+    flex-wrap:nowrap;
   }
 
   .contact-icon{
-    width: 30px;
-    height: 30px;
-    min-width: 30px;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -543,7 +544,8 @@ footer p{
   }
 
   .contact-item span{
-    font-size: 11px;      
+    font-size: 14px;
+    flex:1;
   }
 
   .floating-wa{

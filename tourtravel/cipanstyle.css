@@ -416,7 +416,7 @@ body{
   text-decoration:none;
   color:white;
   transition:0.3s;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
 }
 
 .contact-item:hover{
@@ -579,10 +579,6 @@ footer p{
     display:block;
   }
 
-  .contact-box{
-    padding:40px 25px;
-  }
-
   .nav-links{
     position:absolute;
     top:110%;
@@ -676,17 +672,22 @@ footer p{
     height:260px;
   }
 
+  .contact-box{
+    padding:40px 25px;
+  }
+
   .contact-item{
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 4px 0;
+    flex-wrap:nowrap;
   }
 
   .contact-icon{
-    width: 30px;
-    height: 30px;
-    min-width: 30px;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -694,7 +695,8 @@ footer p{
   }
 
   .contact-item span{
-    font-size: 11px;      
+    font-size: 14px;
+    flex:1;      
   }
 
   .floating-wa{
