@@ -1,0 +1,533 @@
+/* ================= ROOT ================= */
+:root{
+  --primary:#0f766e;
+  --secondary:#14b8a6;
+  --dark:#0f172a;
+  --gray:#64748b;
+  --light:#ffffff;
+  --bg:#f8fafc;
+}
+
+
+/* ================= RESET ================= */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:var(--bg);
+  color:var(--dark);
+  overflow-x:hidden;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+a{
+  text-decoration:none;
+}
+
+.container{
+  width:min(1100px,90%);
+  margin:auto;
+}
+
+
+/* ================= HERO ================= */
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:140px 20px 90px;
+  background:
+  linear-gradient(rgba(15,118,110,.75),rgba(15,23,42,.9)),
+  url("assets/umkmhero.webp");
+  background-size:cover;
+  background-position:center;
+  color:white;
+}
+
+.hero-content{
+  max-width:850px;
+}
+
+.hero h1{
+  font-size:3.5rem;
+  line-height:1.2;
+  margin-bottom:20px;
+}
+
+.hero-text{
+  font-size:1.08rem;
+  line-height:1.9;
+  color:#e2e8f0;
+  max-width:720px;
+  margin:auto;
+}
+
+
+/* ================= HERO BUTTON ================= */
+.hero-btns{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+  flex-wrap:wrap;
+  margin-top:35px;
+}
+
+.hero-btn{
+  padding:15px 32px;
+  border-radius:50px;
+  font-weight:600;
+  transition:.3s;
+  box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.primary-btn{
+  background:linear-gradient(135deg,#14b8a6,#06b6d4);
+  color:white;
+}
+
+.primary-btn:hover{
+  transform:translateY(-5px);
+  box-shadow:0 12px 30px rgba(20,184,166,.35);
+}
+
+.secondary-btn{
+  border:2px solid rgba(255,255,255,.35);
+  color:white;
+}
+
+.secondary-btn:hover{
+  background:white;
+  color:var(--primary);
+  transform:translateY(-5px);
+}
+
+
+/* ================= SECTION ================= */
+.section{
+  padding:90px 0;
+}
+
+.section-title{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.section-title h2{
+  font-size:2.5rem;
+  margin-bottom:12px;
+  color:var(--dark);
+}
+
+.section-title p{
+  color:var(--gray);
+}
+
+
+/* ================= ABOUT ================= */
+.about-box{
+  background:white;
+  padding:45px;
+  border-radius:30px;
+  line-height:2;
+  box-shadow:0 10px 30px rgba(0,0,0,.06);
+  text-align:justify;
+}
+
+.about-box p{
+  max-width:850px;
+  margin:auto;
+  color:var(--gray);
+}
+
+
+/* ================= PRODUCT ================= */
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:30px;
+}
+
+.product-card{
+  background:white;
+  border-radius:30px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,.06);
+  transition:.35s;
+}
+
+.product-card:hover{
+  transform:translateY(-10px);
+}
+
+.product-card img{
+  width:100%;
+  aspect-ratio:16/10;
+  object-fit:cover;
+  transition:.4s;
+}
+
+.product-card:hover img{
+  transform:scale(1.05);
+}
+
+.product-content{
+  padding:30px;
+}
+
+.product-content h3{
+  color:var(--primary);
+  font-size:1.45rem;
+  margin-bottom:18px;
+  text-align:center;
+  position:relative;
+}
+
+.product-content h3::after{
+  content:"";
+  width:60px;
+  height:4px;
+  background:var(--secondary);
+  display:block;
+  margin:10px auto 0;
+  border-radius:20px;
+}
+
+.product-content p{
+  color:var(--gray);
+  line-height:1.8;
+  margin-bottom:20px;
+  text-align:justify;
+}
+
+.product-content ul{
+  list-style:none;
+  display:grid;
+  gap:12px;
+  margin-bottom:28px;
+}
+
+.product-content li{
+  color:var(--gray);
+  padding-left:5px;
+}
+
+.product-btn{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:fit-content;
+  margin:auto;
+  padding:14px 28px;
+  border-radius:50px;
+  background:var(--primary);
+  color:white;
+  font-weight:600;
+  transition:.3s;
+  box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.product-btn:hover{
+  background:var(--secondary);
+  transform:translateY(-5px);
+  box-shadow:0 12px 28px rgba(15,118,110,.25);
+}
+
+
+/* ================= FEATURES ================= */
+.features-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:30px;
+}
+
+.feature-card{
+  background:white;
+  padding:35px 25px;
+  border-radius:28px;
+  text-align:center;
+  transition:.35s;
+  box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+.feature-card:hover{
+  transform:translateY(-8px);
+}
+
+.feature-icon{
+  font-size:2.8rem;
+  margin-bottom:20px;
+}
+
+.feature-card h3{
+  color:var(--primary);
+  margin-bottom:15px;
+}
+
+.feature-card p{
+  color:var(--gray);
+  line-height:1.8;
+}
+
+
+/* ================= CONTACT ================= */
+.contact-box{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(135deg,var(--primary),#0f172a);
+  padding:60px;
+  border-radius:35px;
+  text-align:center;
+  color:white;
+  max-width:900px;
+  margin:auto;
+  box-shadow:0 20px 50px rgba(15,118,110,0.18);
+}
+
+.contact-box > *{
+  position:relative;
+  z-index:2;
+}
+
+.contact-box::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background-image:url('assets/cipancartographer.webp');
+  background-size:300px;
+  background-repeat:repeat;
+  opacity:0.15;
+  pointer-events:none;
+}
+
+.contact-box h2{
+  margin-bottom:20px;
+  font-size:2.5rem;
+}
+
+.contact-item{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  padding:12px 0;
+  text-decoration:none;
+  color:white;
+  transition:0.3s;
+  flex-wrap:wrap;
+}
+
+.contact-item:hover{
+  transform:translateY(-3px);
+  color:#99f6e4;
+}
+
+.contact-item span{
+  font-size: 22px;
+  font-weight: 500; 
+}
+
+.contact-icon{
+  width:52px;
+  height:52px;
+  border-radius:16px;
+  background:rgba(255,255,255,0.12);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:1.2rem;
+}
+
+
+/* ================= LOCATION ================= */
+.location-section{
+  margin-top:90px;
+  padding:40px;
+  background:#f8fafc;
+  border-radius:35px;
+}
+
+.map{
+  margin-top:35px;
+  overflow:hidden;
+  border-radius:30px;
+  box-shadow:0 10px 35px rgba(0,0,0,0.08);
+  transition:0.3s ease;
+}
+
+.map:hover{
+  transform:translateY(-4px);
+}
+
+.map iframe{
+  width:100%;
+  height:450px;
+  border:0;
+  border-radius:30px;
+}
+
+
+/* ================= FLOATING WHATSAPP ================= */
+.floating-wa{
+  position:fixed;
+  right:25px;
+  bottom:25px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  background:#25D366;
+  color:white;
+  padding:14px 22px;
+  border-radius:50px;
+  box-shadow:0 10px 25px rgba(0,0,0,.2);
+  z-index:1000;
+  transition:.3s;
+  animation:float 3s ease-in-out infinite;
+}
+
+.floating-wa:hover{
+  transform:translateY(-5px);
+  background:#1da851;
+}
+
+.floating-wa i{
+  font-size:1.5rem;
+}
+
+.floating-wa span{
+  font-weight:600;
+}
+
+@keyframes float{
+  0%,100%{
+    transform:translateY(0);
+  }
+  50%{
+    transform:translateY(-8px);
+  }
+}
+
+
+/* ================= FOOTER ================= */
+footer{
+  margin-top:80px;
+  background:#0f172a;
+  color:white;
+  text-align:center;
+  padding:40px 20px;
+  position:relative;
+  overflow:hidden;
+}
+
+footer::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background-image:url('assets/cipancartographer.webp');
+  background-size:300px;
+  background-repeat:repeat;
+  opacity:0.05;
+}
+
+footer p{
+  color:#cbd5e1;
+  line-height:1.8;
+}
+
+
+/* ================= MOBILE ================= */
+@media(max-width:768px){
+  .hero{
+    min-height:85vh;
+    padding:120px 20px 80px;
+  }
+
+  .hero h1{
+    font-size:2.4rem;
+  }
+
+  .hero-text{
+    font-size:.97rem;
+  }
+
+  .hero-btns{
+    flex-wrap:nowrap;
+    gap:12px;
+  }
+
+  .hero-btn{
+    flex:1;
+    max-width:170px;
+    padding:14px 12px;
+    font-size:.92rem;
+    text-align:center;
+  }
+
+  .section{
+    padding:70px 0;
+  }
+
+  .section-title h2{
+    font-size:2rem;
+  }
+
+  .about-box{
+    padding:30px;
+  }
+
+  .contact-box{
+    padding:40px 25px;
+  }
+
+  .product-grid{
+    display:flex;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    overflow-y:hidden;
+    gap:20px;
+    scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;
+    -webkit-overflow-scrolling:touch;
+    padding-inline:3%;
+    padding-bottom:10px;
+    cursor:grab;
+  }
+
+  .product-grid::-webkit-scrollbar{
+    display:none;
+  }
+
+  .product-grid:active{
+    cursor:grabbing;
+  }
+
+  .product-card{
+    flex:0 0 90%;
+    max-width:90%;
+    scroll-snap-align:center;
+  }
+
+  .features-grid{
+    grid-template-columns:1fr;
+  }
+
+  .floating-wa{
+    right:18px;
+    bottom:18px;
+    padding:14px 18px;
+  }
+
+  .floating-wa span{
+    display:none;
+  }
+}
