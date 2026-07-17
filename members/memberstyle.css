@@ -464,7 +464,7 @@ select:focus-visible{
     scroll-snap-type:x mandatory;
     scroll-behavior:smooth;
     -webkit-overflow-scrolling:touch;
-    padding-inline:3%;
+    padding-inline:2%;
     padding-bottom:10px;
     cursor:grab;
   }
@@ -478,8 +478,8 @@ select:focus-visible{
   }
 
   .skill-card{
-    flex:0 0 85%;
-    max-width:85%;
+    flex:0 0 95%;
+    max-width:95%;
     scroll-snap-align:center;
   }
 }

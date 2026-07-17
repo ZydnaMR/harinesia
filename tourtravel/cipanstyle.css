@@ -161,6 +161,10 @@ body{
   margin-bottom:20px;
 }
 
+.hero .hero-text{
+  text-align: center !important;
+}
+
 .hero p{
   max-width:750px;
   margin:auto;
@@ -670,6 +674,29 @@ footer p{
 
   .gallery-item img{
     height:260px;
+  }
+
+  .contact-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 4px 0;
+  }
+
+  .contact-icon{
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+  }
+
+  .contact-item span{
+    font-size: 1.1rem;      
+    line-height: 1.35;
+    word-break: break-word;
   }
 
   .floating-wa{
