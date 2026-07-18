@@ -1,7 +1,7 @@
 # 🌊 Harinesia
 
 <p align="center">
-  <img src="assets/logo/logo.png" alt="Harinesia Logo" width="150">
+  <img src="assets/logo.png" alt="Harinesia Logo" width="150">
 </p>
 
 <p align="center">
@@ -10,17 +10,28 @@
 </p>
 
 <p align="center">
-  <a href="https://harinesia.com">🌐 Website</a> •
-  <a href="LICENSE">📄 License</a>
+  <a href="https://harinesia.com">
+    <img src="https://img.shields.io/badge/Website-harinesia.com-0f766e?style=for-the-badge" alt="Website">
+  </a>
+  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Made%20with-HTML%20%7C%20CSS%20%7C%20JavaScript-blue?style=for-the-badge" alt="Stack">
 </p>
 
 ---
 
-## 📖 About
+# 📖 About
 
-Harinesia is the official website representing our family ecosystem. It integrates family values, business development, tourism services, local MSME products, and community initiatives into a single digital platform.
+Harinesia is the official digital platform representing our family's ecosystem.
+It brings together family values, business development, tourism services, local MSME products, halal certification assistance, and community initiatives into one modern website.
+The platform aims to strengthen family branding, support local businesses, and create a positive impact for the surrounding community.
 
-The website is designed to provide information, promote local businesses, strengthen family branding, and support community empowerment through an accessible and modern web experience.
+---
+
+# 🌟 Brand Identity
+
+**Harinesia** comes from the combination of **Haris** and **Ririn**, symbolizing a family that grows together through business, collaboration, and community empowerment.
+Tagline:
+> **Building Family, Business & Community**
 
 ---
 
@@ -49,6 +60,7 @@ https://harinesia.com
 - JavaScript
 - JSON-LD (Schema.org)
 - Git
+- GitHub
 - GitHub Pages
 
 ---
@@ -63,11 +75,12 @@ harinesia/
 ├── produkumkm/             # MSME products
 ├── tour&travel/            # Citra Pantura Tour & Travel
 │
-├── index.html
+├── favicon.ico
+├── site.webmanifest
 ├── robots.txt
 ├── sitemap.xml
 ├── 404.html
-├── site.webmanifest
+├── index.html
 ├── README.md
 └── .gitignore
 ```
