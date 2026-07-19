@@ -145,7 +145,7 @@ body{
   padding:160px 20px 100px;
   background:
   linear-gradient(rgba(15,23,42,0.7),rgba(15,23,42,0.8)),
-  url('assets/cipanhero.webp');
+  url("assets/cipanhero.webp");
   background-size:cover;
   background-position:right center;
   color:white;
