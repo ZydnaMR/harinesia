@@ -251,11 +251,11 @@ body{
 }
 
 .about-text p{
-  line-height:1.9;
+  line-height:1.8;
   margin-bottom:20px;
   max-width:65ch;
   color:var(--gray);
-  text-align:justify;
+  text-align:start;
 }
 
 
@@ -375,7 +375,9 @@ img[src="assets/dinan.webp"]{
 .service-card p{
   color:var(--gray);
   line-height:1.8;
-  text-align:justify;
+  margin-bottom:20px;
+  max-width:65ch;
+  text-align:center;
 }
 
 

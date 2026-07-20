@@ -189,6 +189,13 @@ body{
   box-shadow:0 10px 25px rgba(0,0,0,0.05);
 }
 
+.about-box p{
+  line-height:1.8;
+  margin-bottom:20px;
+  max-width:65ch;
+  color:var(--gray);
+  text-align:start;
+}
 
 /* ================= TIMELINE ================= */
 .timeline{
@@ -258,8 +265,7 @@ body{
 .timeline-description p{
   line-height:1.8;
   color:var(--gray);
-  text-align:justify;
-  text-justify:inter-word;
+  text-align:start;
   position:relative;
 }
 
