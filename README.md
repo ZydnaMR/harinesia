@@ -22,7 +22,7 @@
 # 📖 About
 
 Harinesia is the official digital platform representing our family's ecosystem.
-It brings together family values, business development, tourism services, local MSME products, halal certification assistance, and community initiatives into one modern website.
+It brings together family values, business development, tourism services, local MSME products, and community initiatives into one modern website.
 The platform aims to strengthen family branding, support local businesses, and create a positive impact for the surrounding community.
 
 ---
@@ -41,7 +41,6 @@ Tagline:
 - 👨‍👩‍👧‍👦 Family Profile
 - ✈️ Citra Pantura Tour & Travel
 - 🛍️ Local MSME Products
-- 📜 Halal Certification Assistance
 - 🤝 Foundation & Community
 - 📞 Contact & Consultation
 

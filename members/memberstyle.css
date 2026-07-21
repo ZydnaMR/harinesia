@@ -75,15 +75,16 @@ body{
 }
 
 .info-box{
-  background:rgba(255,255,255,0.12);
-  backdrop-filter:blur(10px);
-  padding:14px 24px;
-  border-radius:16px;
+  background:rgba(255,255,255,0.12); 
+  backdrop-filter:blur(10px); 
+  padding:14px 24px; 
+  border-radius:16px; 
   transition:0.3s;
-}
+} 
 
-.info-box:hover{
-  transform:translateY(-5px);
+.info-box:hover{ 
+  transform:translateY(-5px); 
+  background: rgba(255,255,255,.16);
 }
 
 .hero-buttons{
@@ -108,22 +109,6 @@ body{
 .family-btn:hover{
   transform:translateY(-5px);
   background:#0f766e;
-}
-
-.cv-btn{
-  padding:14px 28px;
-  background:white;
-  color:var(--primary);
-  text-decoration:none;
-  border-radius:50px;
-  font-weight:600;
-  transition:0.3s;
-  box-shadow:0 10px 25px rgba(0,0,0,0.15);
-}
-
-.cv-btn:hover{
-  transform:translateY(-5px);
-  background:#e2e8f0;
 }
 
 
@@ -185,17 +170,20 @@ body{
   padding:40px;
   border-radius:30px;
   line-height:1.9;
-  text-align:justify;
   box-shadow:0 10px 25px rgba(0,0,0,0.05);
 }
 
 .about-box p{
-  line-height:1.8;
+  line-height:1.9;
   margin-bottom:20px;
-  max-width:65ch;
   color:var(--gray);
   text-align:start;
 }
+
+.about-box p:last-child{
+  margin-bottom:0;
+}
+
 
 /* ================= TIMELINE ================= */
 .timeline{
@@ -450,6 +438,10 @@ select:focus-visible{
 
   .about-box{
     padding:30px;
+  }
+
+  .about-box p{
+    max-width:65ch;
   }
 
   .motto-box{

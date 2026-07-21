@@ -142,15 +142,17 @@ a{
   border-radius:30px;
   line-height:2;
   box-shadow:0 10px 30px rgba(0,0,0,.06);
-  text-align:justify;
 }
 
 .about-box p{
   line-height:1.8;
   margin-bottom:20px;
-  max-width:65ch;
   color:var(--gray);
   text-align:start;
+}
+
+.about-box p:last-child{
+  margin-bottom:0;
 }
 
 
@@ -491,6 +493,10 @@ footer p{
 
   .about-box{
     padding:30px;
+  }
+
+  .about-box p{
+    max-width:65ch;
   }
 
   .product-grid{
