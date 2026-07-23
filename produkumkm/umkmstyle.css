@@ -62,7 +62,7 @@ a{
 .hero h1{
   font-size:3.5rem;
   line-height:1.2;
-  margin-bottom:20px;
+  margin-bottom:80px;
 }
 
 .hero-text{
@@ -81,7 +81,7 @@ a{
   align-items:center;
   gap:15px;
   flex-wrap:wrap;
-  margin-top:35px;
+  margin-top:0px;
 }
 
 .hero-btn{
@@ -219,13 +219,45 @@ a{
 .product-content ul{
   list-style:none;
   display:grid;
-  gap:12px;
-  margin-bottom:28px;
+  gap:14px;
+  margin:24px 0 30px;
+  padding:0;
 }
 
 .product-content li{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:14px 18px;
+  background:var(--bg);
+  border-radius:14px;
   color:var(--gray);
-  padding-left:5px;
+  font-weight:500;
+  transition:.3s ease;
+}
+
+.product-content li i{
+  width:36px;
+  height:36px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  background:rgba(20,184,166,.15);
+  color:var(--primary);
+  font-size:1rem;
+  transition:.3s;
+}
+
+.product-content li:hover{
+  background:#ccfbf1;
+  color:var(--primary);
+  transform:translateX(8px);
+}
+
+.product-content li:hover i{
+  background:var(--primary);
+  color:white;
 }
 
 .product-btn{
@@ -247,6 +279,18 @@ a{
   background:var(--secondary);
   transform:translateY(-5px);
   box-shadow:0 12px 28px rgba(15,118,110,.25);
+}
+
+.tea-img{
+  object-position:center 20%;
+}
+
+.empal-img{
+  object-position:center 80%;
+}
+
+.catering-img{
+  object-position:center 50%;
 }
 
 
